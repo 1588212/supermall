@@ -9,6 +9,7 @@ import VueLazyLoad from 'vue-lazyload'
 
 Vue.prototype.$bus = new Vue()
 Vue.use(toast)
+// 图片的懒加载  loading 是指在加载时等待的图片
 Vue.use(VueLazyLoad,{
   loading:require('./assets/img/common/favor.png')
 })
